@@ -1,19 +1,19 @@
 # epub
 Small go utility to dump metadata in JSON format for all ePub files in a directory and subdirectories
 
-# Building
+## Building
 
 ```
 go build
 ```
 
-# Usage
+## Usage
 
 ```
 epub -dir <Directory where ePub files reside>
 ```
 
-# Example
+## Example
 
 Find all duplicate titles in my library:
 
