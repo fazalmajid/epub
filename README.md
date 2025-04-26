@@ -12,3 +12,11 @@ go build
 ```
 epub -dir <Directory where ePub files reside>
 ```
+
+# Example
+
+Find all duplicate titles in my library:
+
+```
+epub -dir ~/Documents/eBooks | jq 'group_by(.title) | map(select(length > 1)) | flatten'
+```
