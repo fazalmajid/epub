@@ -4,7 +4,7 @@ Small go utility to dump metadata in JSON format for all ePub files in a directo
 ## Building
 
 ```
-git checkout https://github.com/fazalmajid/epub
+git clone https://github.com/fazalmajid/epub
 cd epub
 go build
 ```
